@@ -22,7 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier --print-width 120 --no-bracket-spacing --single-quote --tab-width 2 --write \"**/*.+(js|jsx|css|md)\""
+    "format": "prettier --print-width 120 --no-bracket-spacing --single-quote --tab-width 4 --write \"**/*.+(js|jsx|css|md)\""
   },
   "eslintConfig": {
     "extends": [

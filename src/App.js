@@ -9,17 +9,17 @@ import Navbar from './components/navbar/Navbar.jsx';
 import Transfer from './components/transfer/Transfer.jsx';
 
 function App() {
-  return (
-    <div>
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route exact component={Mint} path="/" />
-          <Route exact component={Transfer} path="/transfer" />
-        </Switch>
-      </Router>
-    </div>
-  );
+    return (
+        <div>
+            <Router>
+                <Navbar />
+                <Switch>
+                    <Route exact component={Mint} path="/" />
+                    <Route exact component={Transfer} path="/transfer" />
+                </Switch>
+            </Router>
+        </div>
+    );
 }
 
 export default App;
